@@ -1,0 +1,116 @@
+/* General Styles */
+/* Full-Page Background */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/images2.jpeg')  center center fixed;
+    background-size: contain; /* Ensures the image scales proportionally without cropping */
+    background-color: #f9f9f9; /* Adds a fallback background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures full height */
+    color: #f8f3f3;
+  }
+  
+  
+  
+  /* Login Section */
+  .login-section {
+    background-color: #225222af;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(28, 143, 20, 0.812);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Heading */
+  .login-section h2 {
+    font-size: 1.8rem;
+    color: #fbf5f5;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-section h2 img {
+    margin-right: 10px;
+  }
+  
+  /* Form Inputs */
+  .login-section label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-section input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-section input:focus {
+    border-color: #f39c12;
+    outline: none;
+  }
+  
+  /* Buttons */
+  .login-section button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f1d1d6e;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-section button:hover {
+    background-color: #1cc313e1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-section {
+      padding: 1.5rem;
+    }
+  
+    .login-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .login-section input, 
+    .login-section button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

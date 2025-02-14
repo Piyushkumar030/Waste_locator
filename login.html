@@ -1,0 +1,57 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <section class="login-section">
+      
+        <h2><img src="img/log1.png" width="60"> Login</h2>
+        
+        <br>
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+          <button type="">Register</button>
+        </form>
+        
+      </section>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <section class="login-section">
+      <h2><img src="img/log1.png" width="40"></h2><h2> Login</h2>
+        <br>
+        <form id="loginForm" action="dashboard.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit" id="Login-btn" href="index.html">Login</button>
+            <a href="register.html">
+                <button type="button">Register</button>
+            </a>
+        </form>
+    </section>
+    <script src="js/log_script.js"></script>
+</body>
+</html>

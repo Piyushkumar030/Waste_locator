@@ -1,0 +1,90 @@
+/* Styles for index.html and education.html */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50; /* Medium green */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 1rem;
+  background-image: url("../img/jt10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  background-color: #2E7D32; /* Darker green */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #ec670f; /* Lighter green */
+  text-align: center;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #e8eaf5; /* Very light green */
+  background-image: url("../img/jt2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #388E3C; /* Medium dark green */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2E7D32; /* Darker green on hover */
+}
+
+/* Styles for education.html */
+
+.education-section {
+  border: none;
+  background-color: transparent;
+}
+
+/* Add more custom styles as needed */
+
+
+
+
+
+
